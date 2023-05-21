@@ -172,7 +172,7 @@ def import_and_predict_cat(image_data):
   result = model_cat .predict(img_reshape)
   print(result)
   #training_set.class_indices
-   print("Prediction",ResultMap[np.argmax(result)] )
+  print("Prediction",ResultMap[np.argmax(result)] )
   
   
   return ResultMap[np.argmax(result)]
